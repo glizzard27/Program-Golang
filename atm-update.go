@@ -1,3 +1,14 @@
+//Program ATM Sederhana dengan menggunakan bahasa Golang
+//Program-Author : Muhammad Fajar Baihaqi
+/*
+.> Deskripsi Program :
+Didalam Program ATM ini terdapat 6 Buah fitur yang biasanya dijumpai pada atm umumnya seperti Cek Saldo Pengguna, Tarik Tunai, Setor Tunai , Transfer Antar pengguna
+,Ubah PIN dan Keluar. Pada program ini juga terdapat kasus dimana terdapat 5 orang pengguna ATM beserta data yang dibutuhkan.
+
+Untuk kekurangan dari program ini mohon dimaafkan
+Sekian Terima Kasih - Author :)
+*/
+
 package main
 
 import (
@@ -19,27 +30,27 @@ func main() {
 	accounts := []Account{
 		Account{
 			name:    "Abdurahman Aziz",
-			balance: 1000000.00,
+			balance: 1000000,
 			pin:     "1234",
 		},
 		Account{
 			name:    "Bernadhetta Ira Tri Lita",
-			balance: 500000.00,
+			balance: 500000,
 			pin:     "4321",
 		},
 		Account{
 			name:    "Firman Nurcahyo",
-			balance: 500000.00,
+			balance: 500000,
 			pin:     "5678",
 		},
 		Account{
 			name:    "Muhammad Fajar Baihaqi",
-			balance: 500000.00,
+			balance: 500000,
 			pin:     "8765",
 		},
 		Account{
 			name:    "Rahadani Syifariani",
-			balance: 500000.00,
+			balance: 500000,
 			pin:     "9012",
 		},
 	}
