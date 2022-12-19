@@ -1,3 +1,6 @@
+//char-counter-version-1.0.go
+//Next Update : char-counter-version-2.0.go
+
 package main
 
 import (
